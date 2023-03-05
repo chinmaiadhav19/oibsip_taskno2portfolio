@@ -1,0 +1,454 @@
+*{padding: 0;
+    margin: 0;
+    font-family: 'Lora', serif;
+ box-sizing: border-box;
+    list-style: none;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(D:/level2/back5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo
+{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f52047;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f52047;
+    transition: .4s;
+}
+.btn{
+    background-color: #f52047;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: trasform  .4s;
+
+}
+.btn:hover{
+       transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 55px;
+    letter-spacing: 3px;
+}
+h4{
+    color:  #f52047;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.About{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.About img{
+    height: 500px;
+    width: 430px;
+    border-radius: 15px;
+  
+}
+.about-te{
+    width: 550px;
+    padding-bottom: 220px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-te h2{
+    color: aliceblue;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-te h5{
+    color: aliceblue;
+    letter-spacing: 8px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-te P{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+
+.Education{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+
+}
+.tittle h2{
+    color: aliceblue;
+    font-size: 35px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    
+    
+    
+}
+.box{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding-left: 50px;
+}
+.card{
+    height: 195px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+h5{
+    color: aliceblue;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #f52047;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: trasform  .4s;
+
+}
+.card .button:hover{
+  background-color: transparent;
+  border: 2px solid #f52047;
+  cursor: pointer;
+}
+.btn1{
+    background-color: #f52047;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: trasform  .4s;
+    letter-spacing: 3px;
+
+}
+.btn1:hover{
+    background-color: transparent;
+  border: 2px solid #f52047;
+  cursor: pointer;
+}
+.tech h2{
+    text-align: center;
+    font-size: 35px;
+}
+.tech h3{
+    margin: 5px;
+}
+.tech{
+    width: 500px; 
+    margin: 30px auto;
+    color:  aliceblue;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.tech li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #191919;
+    display: block;
+    height: 15px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+}
+.HTML{
+    width: 90%;
+    animation: HTML 3s;
+}
+.CSS{
+    width: 70%;
+    animation: CSS 3s;
+}
+.PHP{
+    width: 60%;
+    animation: PHP 3s;
+}
+.JAVASCRIPT{
+    width: 20%;
+    animation: JAVASCRIPT 3s;
+}
+@keyframes HTML{
+    0%{
+        width:0%;    
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes CSS{
+    0%{
+        width:0%;    
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes PHP{
+    0%{
+        width:0%;    
+    }
+    100%{
+        width:60%;
+    }
+}
+@keyframes JAVASCRIPT{
+    0%{
+        width:0%;    
+    }
+    100%{
+        width:20%;
+    }
+}
+
+
+
+
+
+
+.soft h2{
+    text-align: center;
+    font-size: 35px;
+}
+.soft h3{
+    margin: 5px;
+}
+.soft{
+    width: 500px; 
+    margin: 30px auto;
+    color:  aliceblue;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.soft li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #191919;
+    display: block;
+    height: 15px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+}
+.Communication{
+    width: 90%;
+    animation: Communication 3s;
+}
+.Leadership{
+    width: 70%;
+    animation: Leadership 3s;
+}
+.ProblemSolving{
+    width: 60%;
+    animation: ProblemSolving 3s;
+}
+.Creativity{
+    width: 20%;
+    animation: Creativity 3s;
+}
+@keyframes Communication{
+    0%{
+        width:0%;    
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes Leadership{
+    0%{
+        width:0%;    
+    }
+    100%{
+        width:60%;
+    }
+}
+@keyframes ProblemSolving{
+    0%{
+        width:0%;    
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes Creativity{
+    0%{
+        width:0%;    
+    }
+    100%{
+        width:90%;
+    }
+}
+
+.contact{
+    background: #191919;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.contact-te{
+    color: aliceblue;
+    margin: 18px 0;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.contact-te h2{
+    font-size: 35px;
+    line-height: 1;
+    padding-left: 30px;
+}
+.contact-te h4{
+    font-size: 15px;
+    color: antiquewhite;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.list{
+    margin-bottom: 2.8rem;
+}
+.list li{
+    margin-bottom: 12px;
+}
+.list li a{
+    display: block;
+    color: antiquewhite;
+    font-size: 14px;
+    transition: all .45s ease;
+    padding-left: 30px;
+    padding-top: 10px;
+   text-decoration: none;
+}
+.list li a:hover{
+    color:#101010;
+    transform: translateX(5px);
+}
+.cont-form form{
+   position: relative;
+   width: 500px;
+   padding-top: 30px;
+   padding-bottom: 50px;
+}
+.cont-form form input,form textarea{
+     width: 100%;
+     padding: 14px;
+     background: #101010;
+     color: aliceblue;
+     border: none;
+     outline: none;
+     font-size: 15px;
+     border-radius: 8px;
+     margin-bottom: 10px;
+}
+.cont-form textarea{
+    resize: none;
+    height: 240px;
+}
+.cont-form .submit{
+    display: inline-block;
+    font-size: 16px;
+    background: #f52047;
+    color: aliceblue;
+    width: 160px;
+    transition: all .45s ease;
+   
+}
+.cont-form .submit:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
